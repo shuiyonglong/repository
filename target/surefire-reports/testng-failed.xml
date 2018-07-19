@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="pass" value="111111"/>
+  <parameter name="username" value="18513199586"/>
+  <listeners>
+    <listener class-name="com.mushishi.selenium.util.RetryListener"/>
+    <listener class-name="com.mushishi.selenium.util.TestNGListenerScreen"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.mushishi.selenium.testCase.SuiteTestBuy">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testBuy"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.mushishi.selenium.testCase.SuiteTestBuy -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
