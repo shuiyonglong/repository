@@ -1,0 +1,194 @@
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:0 ] - [ DEBUG ]  Get connection: {}->http://localhost:35290, timeout = 120000
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:11 ] - [ DEBUG ]  [{}->http://localhost:35290] total kept alive: 0, total issued: 0, total allocated: 0 out of 2000
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:12 ] - [ DEBUG ]  No free connections [{}->http://localhost:35290][null]
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:14 ] - [ DEBUG ]  Available capacity: 2000 out of 2000 [{}->http://localhost:35290][null]
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:14 ] - [ DEBUG ]  Creating new connection [{}->http://localhost:35290]
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:29 ] - [ DEBUG ]  Connecting to localhost:35290
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:75 ] - [ DEBUG ]  CookieSpec selected: best-match
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:103 ] - [ DEBUG ]  Auth cache not set in the context
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:103 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:107 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:108 ] - [ DEBUG ]  Attempt 1 to execute request
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:108 ] - [ DEBUG ]  Sending request: POST /session HTTP/1.1
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:109 ] - [ DEBUG ]   >> "POST /session HTTP/1.1[\r][\n]"
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:112 ] - [ DEBUG ]   >> "Accept: application/json, image/png[\r][\n]"
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:116 ] - [ DEBUG ]   >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:116 ] - [ DEBUG ]   >> "Content-Length: 143[\r][\n]"
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:122 ] - [ DEBUG ]   >> "Host: localhost:35290[\r][\n]"
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:122 ] - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:123 ] - [ DEBUG ]   >> "[\r][\n]"
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:123 ] - [ DEBUG ]  >> POST /session HTTP/1.1
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:123 ] - [ DEBUG ]  >> Accept: application/json, image/png
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:124 ] - [ DEBUG ]  >> Content-Type: application/json; charset=utf-8
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:124 ] - [ DEBUG ]  >> Content-Length: 143
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:125 ] - [ DEBUG ]  >> Host: localhost:35290
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:125 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2018-11-20 21:43:27  [ Forwarding newSession on session null to remote:126 ] - [ DEBUG ]   >> "{"desiredCapabilities":{"chrome.switches":[],"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2293 ] - [ DEBUG ]   << "HTTP/1.1 200 OK[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2298 ] - [ DEBUG ]   << "Content-Length:887[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2300 ] - [ DEBUG ]   << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2300 ] - [ DEBUG ]   << "[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2302 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 OK
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2303 ] - [ DEBUG ]  << HTTP/1.1 200 OK
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2304 ] - [ DEBUG ]  << Content-Length:887
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2305 ] - [ DEBUG ]  << Content-Type:application/json; charset=utf-8
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2307 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2327 ] - [ DEBUG ]   << "{"sessionId":"17dfa4171bb4d74bc2e840e2901ac750","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e)","userDataDir":"C:\\Users\\sa_wa\\AppData\\Local\\Temp\\scoped_dir2308_27311"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:3874"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"69.0.3497.100","webStorageEnabled":true}}"
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2328 ] - [ DEBUG ]  Released connection is reusable.
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2328 ] - [ DEBUG ]  Releasing connection [{}->http://localhost:35290][null]
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2328 ] - [ DEBUG ]  Pooling connection [{}->http://localhost:35290][null]; keep alive indefinitely
+2018-11-20 21:43:29  [ Forwarding newSession on session null to remote:2329 ] - [ DEBUG ]  Notifying no-one, there are no waiting threads
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2509 ] - [ DEBUG ]  Get connection: {}->http://localhost:35290, timeout = 120000
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2509 ] - [ DEBUG ]  [{}->http://localhost:35290] total kept alive: 1, total issued: 0, total allocated: 1 out of 2000
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2509 ] - [ DEBUG ]  Getting free connection [{}->http://localhost:35290][null]
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2514 ] - [ DEBUG ]  Stale connection check
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2520 ] - [ DEBUG ]  CookieSpec selected: best-match
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2521 ] - [ DEBUG ]  Auth cache not set in the context
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2521 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2521 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2522 ] - [ DEBUG ]  Attempt 1 to execute request
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2523 ] - [ DEBUG ]  Sending request: POST /session/17dfa4171bb4d74bc2e840e2901ac750/url HTTP/1.1
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2523 ] - [ DEBUG ]   >> "POST /session/17dfa4171bb4d74bc2e840e2901ac750/url HTTP/1.1[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2523 ] - [ DEBUG ]   >> "Accept: application/json, image/png[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2523 ] - [ DEBUG ]   >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2524 ] - [ DEBUG ]   >> "Content-Length: 30[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2524 ] - [ DEBUG ]   >> "Host: localhost:35290[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2525 ] - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2525 ] - [ DEBUG ]   >> "[\r][\n]"
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2525 ] - [ DEBUG ]  >> POST /session/17dfa4171bb4d74bc2e840e2901ac750/url HTTP/1.1
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2526 ] - [ DEBUG ]  >> Accept: application/json, image/png
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2526 ] - [ DEBUG ]  >> Content-Type: application/json; charset=utf-8
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2526 ] - [ DEBUG ]  >> Content-Length: 30
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2527 ] - [ DEBUG ]  >> Host: localhost:35290
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2527 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2018-11-20 21:43:29  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:2527 ] - [ DEBUG ]   >> "{"url":"http://www.imooc.com"}"
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5489 ] - [ DEBUG ]   << "HTTP/1.1 200 OK[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5490 ] - [ DEBUG ]   << "Content-Length:72[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5490 ] - [ DEBUG ]   << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5490 ] - [ DEBUG ]   << "[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5490 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 OK
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5491 ] - [ DEBUG ]  << HTTP/1.1 200 OK
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5492 ] - [ DEBUG ]  << Content-Length:72
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5492 ] - [ DEBUG ]  << Content-Type:application/json; charset=utf-8
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5492 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5492 ] - [ DEBUG ]   << "{"sessionId":"17dfa4171bb4d74bc2e840e2901ac750","status":0,"value":null}"
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5492 ] - [ DEBUG ]  Released connection is reusable.
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5493 ] - [ DEBUG ]  Releasing connection [{}->http://localhost:35290][null]
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5493 ] - [ DEBUG ]  Pooling connection [{}->http://localhost:35290][null]; keep alive indefinitely
+2018-11-20 21:43:32  [ Forwarding get on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5494 ] - [ DEBUG ]  Notifying no-one, there are no waiting threads
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5502 ] - [ DEBUG ]  Get connection: {}->http://localhost:35290, timeout = 120000
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5502 ] - [ DEBUG ]  [{}->http://localhost:35290] total kept alive: 1, total issued: 0, total allocated: 1 out of 2000
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5503 ] - [ DEBUG ]  Getting free connection [{}->http://localhost:35290][null]
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5503 ] - [ DEBUG ]  Stale connection check
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5507 ] - [ DEBUG ]  CookieSpec selected: best-match
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5507 ] - [ DEBUG ]  Auth cache not set in the context
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5508 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5508 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5509 ] - [ DEBUG ]  Attempt 1 to execute request
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5509 ] - [ DEBUG ]  Sending request: POST /session/17dfa4171bb4d74bc2e840e2901ac750/window/current/maximize HTTP/1.1
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5510 ] - [ DEBUG ]   >> "POST /session/17dfa4171bb4d74bc2e840e2901ac750/window/current/maximize HTTP/1.1[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5510 ] - [ DEBUG ]   >> "Accept: application/json, image/png[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5510 ] - [ DEBUG ]   >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5511 ] - [ DEBUG ]   >> "Content-Length: 26[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5511 ] - [ DEBUG ]   >> "Host: localhost:35290[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5512 ] - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5512 ] - [ DEBUG ]   >> "[\r][\n]"
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5512 ] - [ DEBUG ]  >> POST /session/17dfa4171bb4d74bc2e840e2901ac750/window/current/maximize HTTP/1.1
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5513 ] - [ DEBUG ]  >> Accept: application/json, image/png
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5513 ] - [ DEBUG ]  >> Content-Type: application/json; charset=utf-8
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5513 ] - [ DEBUG ]  >> Content-Length: 26
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5514 ] - [ DEBUG ]  >> Host: localhost:35290
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5514 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2018-11-20 21:43:32  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:5515 ] - [ DEBUG ]   >> "{"windowHandle":"current"}"
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6692 ] - [ DEBUG ]   << "HTTP/1.1 200 OK[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6692 ] - [ DEBUG ]   << "Content-Length:72[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6693 ] - [ DEBUG ]   << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6693 ] - [ DEBUG ]   << "[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6693 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 OK
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6693 ] - [ DEBUG ]  << HTTP/1.1 200 OK
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6694 ] - [ DEBUG ]  << Content-Length:72
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6694 ] - [ DEBUG ]  << Content-Type:application/json; charset=utf-8
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6694 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6694 ] - [ DEBUG ]   << "{"sessionId":"17dfa4171bb4d74bc2e840e2901ac750","status":0,"value":null}"
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6694 ] - [ DEBUG ]  Released connection is reusable.
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6694 ] - [ DEBUG ]  Releasing connection [{}->http://localhost:35290][null]
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6694 ] - [ DEBUG ]  Pooling connection [{}->http://localhost:35290][null]; keep alive indefinitely
+2018-11-20 21:43:33  [ Forwarding maximizeWindow on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6698 ] - [ DEBUG ]  Notifying no-one, there are no waiting threads
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6704 ] - [ DEBUG ]  Get connection: {}->http://localhost:35290, timeout = 120000
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6704 ] - [ DEBUG ]  [{}->http://localhost:35290] total kept alive: 1, total issued: 0, total allocated: 1 out of 2000
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6705 ] - [ DEBUG ]  Getting free connection [{}->http://localhost:35290][null]
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6705 ] - [ DEBUG ]  Stale connection check
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6708 ] - [ DEBUG ]  CookieSpec selected: best-match
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6709 ] - [ DEBUG ]  Auth cache not set in the context
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6710 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6711 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6711 ] - [ DEBUG ]  Attempt 1 to execute request
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6712 ] - [ DEBUG ]  Sending request: POST /session/17dfa4171bb4d74bc2e840e2901ac750/element HTTP/1.1
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6713 ] - [ DEBUG ]   >> "POST /session/17dfa4171bb4d74bc2e840e2901ac750/element HTTP/1.1[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6713 ] - [ DEBUG ]   >> "Accept: application/json, image/png[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6714 ] - [ DEBUG ]   >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6715 ] - [ DEBUG ]   >> "Content-Length: 38[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6716 ] - [ DEBUG ]   >> "Host: localhost:35290[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6716 ] - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6716 ] - [ DEBUG ]   >> "[\r][\n]"
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6718 ] - [ DEBUG ]  >> POST /session/17dfa4171bb4d74bc2e840e2901ac750/element HTTP/1.1
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6718 ] - [ DEBUG ]  >> Accept: application/json, image/png
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6718 ] - [ DEBUG ]  >> Content-Type: application/json; charset=utf-8
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6718 ] - [ DEBUG ]  >> Content-Length: 38
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6719 ] - [ DEBUG ]  >> Host: localhost:35290
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6720 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2018-11-20 21:43:33  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6720 ] - [ DEBUG ]   >> "{"using":"link text","value":"[0xe7][0x99][0xbb][0xe5][0xbd][0x95]"}"
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6866 ] - [ DEBUG ]   << "HTTP/1.1 200 OK[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6867 ] - [ DEBUG ]   << "Content-Length:102[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6867 ] - [ DEBUG ]   << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6867 ] - [ DEBUG ]   << "[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6867 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 OK
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6867 ] - [ DEBUG ]  << HTTP/1.1 200 OK
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6868 ] - [ DEBUG ]  << Content-Length:102
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6868 ] - [ DEBUG ]  << Content-Type:application/json; charset=utf-8
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6868 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6869 ] - [ DEBUG ]   << "{"sessionId":"17dfa4171bb4d74bc2e840e2901ac750","status":0,"value":{"ELEMENT":"0.9783244309569312-1"}}"
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6869 ] - [ DEBUG ]  Released connection is reusable.
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6869 ] - [ DEBUG ]  Releasing connection [{}->http://localhost:35290][null]
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6869 ] - [ DEBUG ]  Pooling connection [{}->http://localhost:35290][null]; keep alive indefinitely
+2018-11-20 21:43:34  [ Forwarding findElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6870 ] - [ DEBUG ]  Notifying no-one, there are no waiting threads
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6872 ] - [ DEBUG ]  Get connection: {}->http://localhost:35290, timeout = 120000
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6872 ] - [ DEBUG ]  [{}->http://localhost:35290] total kept alive: 1, total issued: 0, total allocated: 1 out of 2000
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6872 ] - [ DEBUG ]  Getting free connection [{}->http://localhost:35290][null]
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6872 ] - [ DEBUG ]  Stale connection check
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6876 ] - [ DEBUG ]  CookieSpec selected: best-match
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6877 ] - [ DEBUG ]  Auth cache not set in the context
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6877 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6877 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6877 ] - [ DEBUG ]  Attempt 1 to execute request
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6877 ] - [ DEBUG ]  Sending request: POST /session/17dfa4171bb4d74bc2e840e2901ac750/element/0.9783244309569312-1/click HTTP/1.1
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6877 ] - [ DEBUG ]   >> "POST /session/17dfa4171bb4d74bc2e840e2901ac750/element/0.9783244309569312-1/click HTTP/1.1[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6878 ] - [ DEBUG ]   >> "Accept: application/json, image/png[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6878 ] - [ DEBUG ]   >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6878 ] - [ DEBUG ]   >> "Content-Length: 29[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6878 ] - [ DEBUG ]   >> "Host: localhost:35290[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6878 ] - [ DEBUG ]   >> "Connection: Keep-Alive[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6879 ] - [ DEBUG ]   >> "[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6879 ] - [ DEBUG ]  >> POST /session/17dfa4171bb4d74bc2e840e2901ac750/element/0.9783244309569312-1/click HTTP/1.1
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6879 ] - [ DEBUG ]  >> Accept: application/json, image/png
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6879 ] - [ DEBUG ]  >> Content-Type: application/json; charset=utf-8
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6879 ] - [ DEBUG ]  >> Content-Length: 29
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6880 ] - [ DEBUG ]  >> Host: localhost:35290
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6880 ] - [ DEBUG ]  >> Connection: Keep-Alive
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:6880 ] - [ DEBUG ]   >> "{"id":"0.9783244309569312-1"}"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7086 ] - [ DEBUG ]   << "HTTP/1.1 200 OK[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7087 ] - [ DEBUG ]   << "Content-Length:72[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7087 ] - [ DEBUG ]   << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7087 ] - [ DEBUG ]   << "[\r][\n]"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7087 ] - [ DEBUG ]  Receiving response: HTTP/1.1 200 OK
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7088 ] - [ DEBUG ]  << HTTP/1.1 200 OK
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7088 ] - [ DEBUG ]  << Content-Length:72
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7088 ] - [ DEBUG ]  << Content-Type:application/json; charset=utf-8
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7088 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7088 ] - [ DEBUG ]   << "{"sessionId":"17dfa4171bb4d74bc2e840e2901ac750","status":0,"value":null}"
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7088 ] - [ DEBUG ]  Released connection is reusable.
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7088 ] - [ DEBUG ]  Releasing connection [{}->http://localhost:35290][null]
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7090 ] - [ DEBUG ]  Pooling connection [{}->http://localhost:35290][null]; keep alive indefinitely
+2018-11-20 21:43:34  [ Forwarding clickElement on session 17dfa4171bb4d74bc2e840e2901ac750 to remote:7090 ] - [ DEBUG ]  Notifying no-one, there are no waiting threads
+2018-11-20 21:43:39  [ main:12106 ] - [ DEBUG ]  第一次打印log4j日志
+2018-11-20 21:43:39  [ main:12107 ] - [ ERROR ]  打印错误信息

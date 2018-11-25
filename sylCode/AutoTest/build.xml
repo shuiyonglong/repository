@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name = "AutoTest" basedir = "." default = "transform">
+<property name = "lib.dir" value = "lib" />
+<path id = "test.classpath">
+<!-- adding the saxon jar to you classpath -->
+<fileset dir = "${lib.dir}" includes = "*.jar" />
+</path>	
+<target name = "transform">
+<xslt in = "E:\autosoftware\autotest\eclipse-workespace\AutoTest\test-output\testng-results.xml" style = "E:\autosoftware\autotest\eclipse-workespace\AutoTest\test-output\testng-results.xsl"
+out = "E:\autosoftware\autotest\eclipse-workespace\AutoTest\test-output\TestReport\index.html">
+	
+<!-- you need to specify the directory here again -->	
+<param name = "testNgXslt.outputDir" expression = "E:\autosoftware\autotest\eclipse-workespace\AutoTest\test-output\TestReport" />	
+<classpath refid = "test.classpath" />	
+</xslt>
+</target>	
+	
+</project>	
+	
+	
